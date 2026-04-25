@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://ipfs.io/ipfs/QmZjM3DiAsnwzVPBD2zNzDN518fJqTCmmw41u2bfRZFJMf" alt="FOSS Token Logo" width="120" style="border-radius: 50%;" />
+<img src="./foss-logo.png" alt="FOSS Token Logo" width="130" style="border-radius: 50%;" />
 
-# FOSS
+# $FOSS — Free Open Source Soft
 
-**I deployed a real token on Solana mainnet to learn how blockchain actually works, driven by the principles of Free and Open Source Software.**
+**A real Solana token I built, listed, and fully documented — from concept to on-chain.**
 
 [![Solana](https://img.shields.io/badge/Solana-Mainnet-9945FF?logo=solana&logoColor=white)](https://explorer.solana.com/address/64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin)
 [![Live Since](https://img.shields.io/badge/Live%20Since-July%2023%2C%202025-brightgreen)](https://explorer.solana.com/tx/VQT5gJrktGkJNuSChKwnfQNeni4ULDLfgHV4bfspBTsZj44v6Wxqc6nGCZze7Mg66atQEmzuVf5MgyUBC9iGroN)
@@ -12,120 +12,156 @@
 [![Mint Authority](https://img.shields.io/badge/Mint%20Authority-Revoked-red)](https://explorer.solana.com/address/64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin)
 [![DEX](https://img.shields.io/badge/DEX-Orca%20Whirlpool-00C2CB)](https://www.orca.so/pools/3Ub4ojhVSiMZtmrS8bHSEiMo9oqzauTyYtd3HjFbZnE2)
 
-> ⚠️ This is a personal learning project — not a product, not an investment, not a startup.
-
 </div>
 
 ---
 
-## What I Built
+## What This Is
 
-I created `FOSS` — a Solana token that stands for **Free and Open Source Software**.
+I created `$FOSS` — a token deployed on Solana mainnet. This repository is my full, public documentation of everything I built: how the token was created, what programs it touches on-chain, every key transaction, and where to verify all of it yourself.
 
-The internet runs on open-source tools — Linux, Git, Python, OpenSSL — most of them maintained by volunteers with no real funding. Inspired by the foundational principles of the Free Software movement and visionaries like Richard Stallman, I wanted to explore whether a token on a public blockchain could represent that idea.
-
-More than the concept, this was a hands-on learning project. I wanted to go past reading about blockchain and actually deploy something real, trace every transaction, and understand what's happening at the protocol level. Everything you see here is live on Solana mainnet. Every claim is publicly verifiable.
+I built this documentation for a specific reason — I wanted a permanent record of what I did and how I did it, so that anyone can come here, read through it, and verify every single claim without needing to ask me. No trust required. Everything points to live, public on-chain data.
 
 ---
 
-## What This Means, Even If You're Not Technical
+## Why I Built This
 
-- I created a digital token called `FOSS` on the Solana blockchain.
-- It's similar to creating a coin — except it lives permanently on a public ledger that anyone in the world can read.
-- The total supply is fixed at **1 billion** — I permanently disabled the ability to create more (this is called revoking mint authority — it's a one-way, irreversible action enforced by the blockchain itself, not just a promise).
-- I then listed it on **Orca**, a decentralized exchange, so anyone can trade it.
-- Every single step — creation, listing, every transfer — is recorded as a transaction on the blockchain and publicly visible.
+My motivation comes directly from the **Free and Open Source Software** movement.
+
+**Richard Stallman** founded the **Free Software Foundation (FSF)** in 1985 and authored the GNU General Public License — establishing the principle that software should be free not just in price, but in freedom: free to run, study, modify, and redistribute. The GNU Project, combined with the Linux kernel, gave the world a completely free operating system. Everything that followed — Git, Python, OpenSSL, GCC — built on that foundation.
+
+The internet today runs almost entirely on FOSS. And most of the people who maintain that infrastructure are volunteers with no sustainable funding model.
+
+I've worked with these tools throughout my time as a developer. The question I kept returning to was: *what if there was an on-chain, decentralized way to represent and support the value that FOSS creates?*
+
+That question became `$FOSS`.
+
+The token's metadata — stored permanently on IPFS — captures this directly:
+
+> *"FOSS Coin is a community-created token built to support and promote Free and Open Source Software. It can be used to donate to FOSS projects, reward developers and contributors, and raise awareness about digital privacy, Linux, and open technologies."*
+
+This project is not affiliated with the FSF, GNU, or Linux.org. It is an independent effort, built entirely by me.
 
 ---
 
-## Token at a Glance
+## Token Overview
 
-| | |
+| Property | Value |
 |---|---|
 | **Symbol** | `FOSS` |
-| **Full name** | Free Open Source Soft |
+| **Full Name** | Free Open Source Soft |
 | **Network** | Solana Mainnet |
-| **Total supply** | 1,000,000,000 (fixed forever) |
-| **Mint authority** | Revoked — no one can ever mint more |
-| **Freeze authority** | Revoked — no one can freeze your tokens |
-| **DEX listing** | Orca Whirlpool (FOSS / SOL pair) |
-| **Live since** | July 23, 2025 |
+| **Total Supply** | 1,000,000,000 — fixed permanently |
+| **Mint Authority** | Revoked — new tokens cannot be minted by anyone |
+| **Freeze Authority** | Revoked — tokens cannot be frozen |
+| **DEX** | Orca Whirlpool — `FOSS / SOL` pair |
+| **Metadata** | Stored on IPFS via Metaplex standard |
+| **Live Since** | July 23, 2025 |
 
 ---
 
-## What I Actually Did — Step by Step
+## What I Did — Timeline
 
-**July 23, 2025 — Token created**
+### July 23, 2025 — Token Created on Solana Mainnet
 
-In a single Solana transaction, I:
-1. Created the token mint account on-chain.
-2. Registered the name, symbol, logo, and description using Metaplex (stored on IPFS).
-3. Minted exactly 1,000,000,000 tokens.
-4. Immediately revoked the mint authority — supply fixed from block one.
-5. Made an initial purchase through the launchpad.
+In a single atomic transaction, I:
 
-**October 21, 2025 — Listed on Orca**
+1. Created the **token mint account** on-chain using the SPL Token Program (`InitializeMint2`)
+2. Uploaded the token metadata JSON to IPFS and registered it on-chain via **Metaplex**
+3. Minted exactly **1,000,000,000 tokens** (`MintTo`)
+4. Immediately revoked the **mint authority** (`SetAuthority` → `None`) — supply is sealed at the consensus level, not by promise
+5. Made an initial purchase through the launchpad
 
-I created an Orca Whirlpool liquidity pool for the `FOSS / SOL` trading pair and added initial liquidity — making the token publicly tradeable on a decentralized exchange.
-
-**January 18, 2026 — Airdrops**
-
-Sent small amounts of FOSS to a few wallets as the project's first distribution activity.
+**Creation TX:** [`VQT5gJr...C9iGroN`](https://explorer.solana.com/tx/VQT5gJrktGkJNuSChKwnfQNeni4ULDLfgHV4bfspBTsZj44v6Wxqc6nGCZze7Mg66atQEmzuVf5MgyUBC9iGroN)
 
 ---
 
-## What I Learned
+### October 21, 2025 — Listed on Orca Whirlpool
 
-- How Solana's **SPL Token Program** works at the instruction level — `InitializeMint2`, `MintTo`, `SetAuthority`, `TransferChecked`.
-- How **Metaplex** connects on-chain token accounts to off-chain metadata stored on IPFS.
-- Why **mint authority revocation** is a cryptographic guarantee, not a social promise — once it's done, the Solana runtime rejects any future minting at the consensus level.
-- How **concentrated liquidity AMMs** work — Orca Whirlpool uses tick arrays and price ranges, not a simple constant-product model.
-- How to read raw blockchain transactions, trace program invocations, and verify claims against live chain data.
-- What actually happens inside a no-code launchpad — the program IDs, the inner instructions, the atomic execution.
+I created a **concentrated liquidity pool** for the `FOSS / SOL` pair on Orca Whirlpool and deposited initial liquidity — making the token publicly tradeable on a decentralized exchange.
+
+Orca Whirlpool is a **tick-array based concentrated liquidity AMM** — not a simple constant-product pool. Liquidity sits within defined price ranges using tick indices. I read the on-chain pool state (`sqrtPrice`, `tickCurrentIndex`, `liquidity`) directly to understand what I had deployed.
+
+**Pool:** [`3Ub4ojh...bZnE2`](https://www.orca.so/pools/3Ub4ojhVSiMZtmrS8bHSEiMo9oqzauTyYtd3HjFbZnE2)
 
 ---
 
-## Verify It Yourself
+### January 18, 2026 — Airdrops
 
-You don't have to take my word for any of this. Everything is public.
+I distributed `$FOSS` tokens to a set of wallets using the SPL `TransferChecked` instruction, which enforces decimal precision at the protocol level on every transfer.
 
-| What to check | Link |
+---
+
+## Technical Depth
+
+**SPL Token Program**
+I worked through `InitializeMint2`, how associated token accounts are derived, how `MintTo` operates against the mint's decimal configuration, and how `TransferChecked` enforces precision. I understand the difference between these instructions — not just that they exist.
+
+**Metaplex Token Metadata**
+The on-chain account holds a URI — not the metadata itself. That URI points to a JSON file on IPFS (`QmNaaTSFFy4ZBp95vhA8F8MCoYHu9tmzWgcW16YyQcni9n`) following the Metaplex standard, with `name`, `symbol`, `description`, and `image` fields. The image is a separate IPFS file (`QmZjM3DiAsnwzVPBD2zNzDN518fJqTCmmw41u2bfRZFJMf`). This is the chain between what appears in a wallet UI and what actually lives on-chain.
+
+**Mint Authority Revocation**
+Revoking mint authority is not a setting or a policy — it is an irreversible state change enforced by the Solana runtime at consensus. After `SetAuthority` is called with `None`, no future `MintTo` instruction will be accepted for this mint. It cannot be undone. This is a cryptographic guarantee, not a social promise.
+
+**Concentrated Liquidity (Orca Whirlpool)**
+Whirlpool uses tick-array based price ranges. Liquidity providers define the price bounds of their position, and the AMM only uses capital within the active tick. I read the pool account structure on-chain rather than relying on the UI to understand where my position was.
+
+**Reading Raw Transactions**
+I learned to trace inner instructions and cross-program invocations (CPIs) inside a transaction — identifying the actual program IDs being invoked, compute unit usage, and the instruction sequence — rather than trusting what a launchpad UI surface describes.
+
+---
+
+## Verify Everything Yourself
+
+| What | Link |
 |---|---|
-| Token on Solana Explorer | [View token](https://explorer.solana.com/address/64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin) |
-| Token on Solscan | [View on Solscan](https://solscan.io/token/64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin) |
-| Creation transaction | [View creation TX](https://explorer.solana.com/tx/VQT5gJrktGkJNuSChKwnfQNeni4ULDLfgHV4bfspBTsZj44v6Wxqc6nGCZze7Mg66atQEmzuVf5MgyUBC9iGroN) |
-| Orca liquidity pool | [View pool](https://www.orca.so/pools/3Ub4ojhVSiMZtmrS8bHSEiMo9oqzauTyYtd3HjFbZnE2) |
-| Token metadata (IPFS) | [View metadata JSON](https://ipfs.io/ipfs/QmNaaTSFFy4ZBp95vhA8F8MCoYHu9tmzWgcW16YyQcni9n) |
-| Token logo (IPFS) | [View logo](https://ipfs.io/ipfs/QmZjM3DiAsnwzVPBD2zNzDN518fJqTCmmw41u2bfRZFJMf) |
-| GeckoTerminal analytics | [View analytics](https://www.geckoterminal.com/solana/pools/3Ub4ojhVSiMZtmrS8bHSEiMo9oqzauTyYtd3HjFbZnE2) |
-| Creator wallet | [View wallet](https://explorer.solana.com/address/HLwsSkx8v7z25N6aZo6rjAywJ1YfjjwhpCA7fCD1Db2b) |
+| Token — Solana Explorer | [View token](https://explorer.solana.com/address/64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin) |
+| Token — Solscan | [View on Solscan](https://solscan.io/token/64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin) |
+| Creation Transaction | [View TX](https://explorer.solana.com/tx/VQT5gJrktGkJNuSChKwnfQNeni4ULDLfgHV4bfspBTsZj44v6Wxqc6nGCZze7Mg66atQEmzuVf5MgyUBC9iGroN) |
+| Orca Liquidity Pool | [View pool](https://www.orca.so/pools/3Ub4ojhVSiMZtmrS8bHSEiMo9oqzauTyYtd3HjFbZnE2) |
+| GeckoTerminal Analytics | [View analytics](https://www.geckoterminal.com/solana/pools/3Ub4ojhVSiMZtmrS8bHSEiMo9oqzauTyYtd3HjFbZnE2) |
+| Token Metadata (IPFS) | [View metadata JSON](https://ipfs.io/ipfs/QmNaaTSFFy4ZBp95vhA8F8MCoYHu9tmzWgcW16YyQcni9n) |
+| Token Logo (IPFS) | [View logo](https://ipfs.io/ipfs/QmZjM3DiAsnwzVPBD2zNzDN518fJqTCmmw41u2bfRZFJMf) |
+| Creator Wallet | [View wallet](https://explorer.solana.com/address/HLwsSkx8v7z25N6aZo6rjAywJ1YfjjwhpCA7fCD1Db2b) |
 
-**To verify the supply cap yourself:** Go to the Solana Explorer link above → look for `Mint Authority: None` — that confirms no one can ever create more tokens.
+**To verify the fixed supply:** Go to the Solana Explorer token link → check `Mint Authority: None`. That is a runtime-level guarantee — not editable.
 
 ---
 
 ## Repository Contents
 
-Everything in this repo is documentation of what I built and how I verified it.
+This repo contains no application code. It is entirely documentation — an audit trail of what I built and verified.
 
-| File | What's inside |
+| File / Folder | What's inside |
 |---|---|
-| `how-it-was-built.md` | Detailed narrative of technical decisions and deployment steps. |
-| `on-chain-verification.md` | Systematic verification of project claims against live blockchain data. |
-| `overview.md` | High-level summary of the FOSS token and its specifications. |
-| `programs.md` | List and explanation of Solana programs involved in the ecosystem. |
-| `resources.md` | Curated index of all external public links and resources. |
-| `transactions.md` | Chronological log of significant transactions with explorer links. |
-| `data/` | Structured data files like `token-spec.json`. |
-| `raw/` | Raw research data, JSON exports, and API responses used for verification. |
+| [`overview.md`](./overview.md) | Full token overview — concept, supply, authorities, and what this project is |
+| [`how-it-was-built.md`](./how-it-was-built.md) | Step-by-step account of how the token was created, listed, and distributed |
+| [`on-chain-verification.md`](./on-chain-verification.md) | Every verifiable claim with its direct on-chain or IPFS source |
+| [`programs.md`](./programs.md) | Solana programs involved — SPL Token Program, Metaplex, Orca Whirlpool — with instruction-level detail |
+| [`transactions.md`](./transactions.md) | Key transactions: creation, listing, airdrops — with links and what each one did |
+| [`resources.md`](./resources.md) | All public links to this project, organized by category |
+| [`data/`](./data/) | Structured data files used during research and verification |
+| [`raw/`](./raw/) | Raw captures — API responses, JSON exports, HTML snapshots used as evidence |
 
 ---
 
-## The Honest Part
+## Honest Assessment
 
-This token has very low liquidity. It's not listed on Jupiter (the main Solana swap aggregator). It has no utility beyond representing an idea. The metadata lives on IPFS and depends on continued availability.
+This token has low liquidity. It is not listed on Jupiter (Solana's primary aggregator), so most users won't find it through the standard discovery route. It has no on-chain utility beyond representing the FOSS idea. The metadata depends on IPFS availability.
 
-The point was never to build a product. The point was to understand how this technology actually works — by doing it, not just reading about it.
+I am not hiding any of this. The goal was never to ship a product. The goal was to understand how this technology actually works — at the level where you can read a transaction and trace every instruction — and to document that understanding completely and publicly.
+
+---
+
+## The Idea
+
+Richard Stallman's argument in 1983 was simple and radical: software freedom is a matter of user rights, not just developer preference. That argument produced the GPL, the GNU Project, and eventually the foundation that the Linux kernel was built on. The tools that run most of the modern internet came from that movement.
+
+Most of that infrastructure has no real funding model. The people maintaining it are often doing it for free.
+
+I don't know if a token is the answer to that problem. But I thought the question was worth asking in a real way — not as a whitepaper or a concept, but as something actually deployed, traceable, and documented on a public ledger.
+
+This is that attempt.
 
 ---
 

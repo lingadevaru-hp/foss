@@ -1,12 +1,12 @@
 # FOSS
 
-I built `FOSS`, an SPL token on Solana mainnet that is live and publicly verifiable on-chain. I created it to learn how Solana token infrastructure works at the protocol level and to connect that work to the values of Free and Open Source Software.
+I built `FOSS`, an SPL token on Solana mainnet that is live and publicly verifiable on-chain. I created it to understand how Solana token infrastructure works at the protocol level and to connect that work to the values of Free and Open Source Software.
 
 The token is live, the supply is fixed at `1,000,000,000`, the mint authority is revoked, and liquidity was later added on Orca through an Orca Whirlpool pool. This project has been live since `July 23, 2025`.
 
-## What This Repository Shows
+## What This Repository Contains
 
-I kept the main project files at the top level so anyone opening the repository can understand it quickly without digging through folders first.
+I kept the main project records visible at the top level so anyone opening the repository can understand it quickly without digging through folders first.
 
 - [overview.md](overview.md)
 - [how-it-was-built.md](how-it-was-built.md)
@@ -38,10 +38,8 @@ I kept the main project files at the top level so anyone opening the repository 
 - Top-level markdown files:
   These are the main public project records. I kept them visible so the repository looks substantial and easy to browse from the first screen.
 - `data/`:
-  This holds the machine-readable token spec and the collected raw source files.
+  This holds the machine-readable token spec and the collected source files.
 - `data/raw/`:
   This keeps the JSON, HTML, metadata, and image files used during verification.
-- `codex/`:
-  This remains in the repository as part of the working project history and was left untouched.
 
 This is a student learning project. Not a product, not an investment.

@@ -10,7 +10,7 @@ The idea behind this project was to use blockchain as a real technical medium to
 - Mint: <https://explorer.solana.com/address/64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin>
 - Creation transaction: <https://explorer.solana.com/tx/VQT5gJrktGkJNuSChKwnfQNeni4ULDLfgHV4bfspBTsZj44v6Wxqc6nGCZze7Mg66atQEmzuVf5MgyUBC9iGroN>
 - Orca pool: <https://www.orca.so/pools/3Ub4ojhVSiMZtmrS8bHSEiMo9oqzauTyYtd3HjFbZnE2>
-- Full link index: [../data/all-links.md](../data/all-links.md)
+- Full resource index: [resources.md](resources.md)
 
 ## Token Specification
 

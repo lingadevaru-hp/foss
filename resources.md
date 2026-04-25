@@ -1,6 +1,6 @@
-# All Links
+# Resources
 
-This file contains every public URL collected from the original URL list and evidence records, deduplicated and organized by category.
+This file contains the public project resources collected from the original URL list and evidence records, deduplicated and organized by category.
 
 ## Token Explorers
 

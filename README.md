@@ -1,65 +1,47 @@
-# FOSS Token Project Documentation
+# FOSS
 
-This repository documents my `FOSS` token project on Solana and the research collected around it. I have organized it as a technical GitHub repository rather than an interview script or a social post draft.
+I built `FOSS`, an SPL token on Solana mainnet that is live and publicly verifiable on-chain. I created it to learn how Solana token infrastructure works at the protocol level and to connect that work to the values of Free and Open Source Software.
 
-The repository is meant to work in two layers:
+The token is live, the supply is fixed at `1,000,000,000`, the mint authority is revoked, and liquidity was later added on Orca through an Orca Whirlpool pool. This project has been live since `July 23, 2025`.
 
-- a clear front layer for recruiters, HR, and non-technical readers
-- a deeper technical layer for anyone who wants to inspect the chain data, records, and raw files
+## What This Repository Shows
 
-## What This Repository Covers
+I kept the main project files at the top level so anyone opening the repository can understand it quickly without digging through folders first.
 
-- what I created
-- what is verifiable on-chain
-- which sources support each major claim
-- what corrections were needed during verification
-- the raw collected files used during the research
+- [overview.md](overview.md)
+- [how-it-was-built.md](how-it-was-built.md)
+- [on-chain-verification.md](on-chain-verification.md)
+- [corrections-and-notes.md](corrections-and-notes.md)
+- [resources.md](resources.md)
+- [transactions.md](transactions.md)
+- [programs.md](programs.md)
 
-## Quick Project Facts
+## Quick Facts
 
-| Item | Value |
-|---|---|
-| Token symbol | `FOSS` |
-| On-chain name | `Free Open Source Soft ` |
-| Network | `Solana Mainnet` |
-| Mint address | `64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin` |
-| Token standard | SPL Token |
-| Decimals | `6` |
-| Total supply | `1,000,000,000` |
-| Mint authority | Revoked |
-| Freeze authority | Revoked |
-| Orca pool | `3Ub4ojhVSiMZtmrS8bHSEiMo9oqzauTyYtd3HjFbZnE2` |
+- Token: `FOSS`
+- Network: `Solana Mainnet`
+- Supply: `1,000,000,000`
+- Mint authority: revoked
+- DEX: Orca Whirlpool
+- Status: live and verifiable on-chain
 
-## Repository Structure
+## Quick Links
 
-- [`docs/project-summary.md`](docs/project-summary.md)  
-  High-level explanation of the project, written in first person and readable without blockchain background.
-- [`docs/verification-and-evidence.md`](docs/verification-and-evidence.md)  
-  Main verification record with confirmed facts, corrections, public references, and transaction-level proof.
-- [`docs/technical-record.md`](docs/technical-record.md)  
-  Deeper technical explanation of the token, metadata, authorities, liquidity setup, and what I learned.
-- [`docs/reference-links.md`](docs/reference-links.md)  
-  Consolidated index of all public URLs and local raw files.
-- [`data/source/original-project-note.txt`](data/source/original-project-note.txt)  
-  Original source note preserved inside the repo.
-- [`data/raw/`](data/raw/)  
-  Raw JSON, HTML, metadata, and image files collected during the research.
-
-## Why I Reworked The Repository
-
-The earlier version had useful material, but it was spread across duplicate files and some of it was written in interview format. That is not the right shape for a public technical repository.
-
-This version keeps the content, removes duplication, and presents the work as a documented project record.
-
-## Main Public References
-
-- Token: <https://explorer.solana.com/address/64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin>
+- Solana Explorer mint: <https://explorer.solana.com/address/64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin>
 - Creation transaction: <https://explorer.solana.com/tx/VQT5gJrktGkJNuSChKwnfQNeni4ULDLfgHV4bfspBTsZj44v6Wxqc6nGCZze7Mg66atQEmzuVf5MgyUBC9iGroN>
 - Orca pool: <https://www.orca.so/pools/3Ub4ojhVSiMZtmrS8bHSEiMo9oqzauTyYtd3HjFbZnE2>
-- Metadata JSON: <https://ipfs.io/ipfs/QmNaaTSFFy4ZBp95vhA8F8MCoYHu9tmzWgcW16YyQcni9n>
+- IPFS metadata: <https://ipfs.io/ipfs/QmNaaTSFFy4ZBp95vhA8F8MCoYHu9tmzWgcW16YyQcni9n>
+- Project resources: [resources.md](resources.md)
 
-## Notes
+## Repository Layout
 
-- I have kept the wording direct and technical where needed.
-- I have removed the interview-style and duplicate documentation.
-- I have kept the raw collected material available in the repository instead of hiding it.
+- Top-level markdown files:
+  These are the main public project records. I kept them visible so the repository looks substantial and easy to browse from the first screen.
+- `data/`:
+  This holds the machine-readable token spec and the collected raw source files.
+- `data/raw/`:
+  This keeps the JSON, HTML, metadata, and image files used during verification.
+- `codex/`:
+  This remains in the repository as part of the working project history and was left untouched.
+
+This is a student learning project. Not a product, not an investment.

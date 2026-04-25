@@ -1,0 +1,21 @@
+{
+  "chainId": 101,
+  "address": "64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin",
+  "symbol": "FOSS",
+  "name": "Free Open Source Soft ",
+  "decimals": 6,
+  "logoURI": "https://ipfs.io/ipfs/QmZjM3DiAsnwzVPBD2zNzDN518fJqTCmmw41u2bfRZFJMf",
+  "tags": ["utility-token"],
+  "network": "solana-mainnet",
+  "mintAuthority": null,
+  "freezeAuthority": null,
+  "totalSupply": "1000000000",
+  "totalSupplyRaw": "1000000000000000",
+  "orcaPool": "3Ub4ojhVSiMZtmrS8bHSEiMo9oqzauTyYtd3HjFbZnE2",
+  "metadataURI": "https://ipfs.io/ipfs/QmNaaTSFFy4ZBp95vhA8F8MCoYHu9tmzWgcW16YyQcni9n",
+  "createdAt": "2025-07-23T07:43:36Z",
+  "creationTx": "VQT5gJrktGkJNuSChKwnfQNeni4ULDLfgHV4bfspBTsZj44v6Wxqc6nGCZze7Mg66atQEmzuVf5MgyUBC9iGroN",
+  "creatorWallet": "HLwsSkx8v7z25N6aZo6rjAywJ1YfjjwhpCA7fCD1Db2b",
+  "launchpadProgram": "HtKnLjomtPrjJwyuQe6HApuEcnb76AUp3oG3nTpnQSAr",
+  "lastVerified": "2026-04-14"
+}

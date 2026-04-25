@@ -1,0 +1,74 @@
+Free Open Source Soft
+
+
+
+
+FOSS Coin is a community-created token built to support and promote Free and Open Source Software (FOSS).
+
+It can be used to:
+- Donate to FOSS projects
+- Reward developers and contributors
+- Raise awareness about digital privacy, Linux, and open technologies
+
+This is not an official project by GNU, Linux.org, or the Free Software Foundation. $FOSS is an independent grassroots effort by passionate individuals who believe in the freedom to build, share, and innovate without restrictions.
+
+By holding or using FOSS Coin, you become part of a decentralized movement to fund the tools that power the internet — freely and ethically.
+
+
+https://solscan.io/token/64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin
+
+
+
+
+Your token is now live on Solana!
+Here it is on SolScan:
+👉 https://solscan.io/token/64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin
+
+
+
+https://solscan.io/token/64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin
+
+
+
+
+✅ 1. What is your token?
+Your token is identified by a token address (also called the mint address). In your case:
+
+Copy
+Edit
+64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin
+
+64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin
+
+
+{
+  "chainId": 101,
+  "address": "64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin",
+  "symbol": "FOSS",
+  "name": "Free Open Source Soft ",
+  "decimals": 6,
+  "logoURI": "https://ipfs.io/ipfs/QmZjM3DiAsnwzVPBD2zNzDN518fJqTCmmw41u2bfRZFJMf",
+  "tags": ["utility-token"]
+}
+
+
+
+  - https://solscan.io/token/64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin
+
+
+  - https://solscan.io/tx/VQT5gJrktGkJNuSChKwnfQNeni4ULDLfgHV4bfspBTsZj44v6Wxqc6nGCZze7Mg66atQEmzuVf5MgyUBC9iGroN
+  - https://solscan.io/account/HLwsSkx8v7z25N6aZo6rjAywJ1YfjjwhpCA7fCD1Db2b
+
+  - https://www.orca.so/pools/3Ub4ojhVSiMZtmrS8bHSEiMo9oqzauTyYtd3HjFbZnE2
+
+  - https://www.geckoterminal.com/solana/pools/3Ub4ojhVSiMZtmrS8bHSEiMo9oqzauTyYtd3HjFbZnE2
+
+  - https://api.geckoterminal.com/api/v2/networks/solana/tokens/64AcKtFgExrtJWPJVr6U4iQrJ1VpiUvDHvRtdMHAcoin
+
+  - https://api.geckoterminal.com/api/v2/networks/solana/pools/3Ub4ojhVSiMZtmrS8bHSEiMo9oqzauTyYtd3HjFbZnE2
+
+  - https://ipfs.io/ipfs/QmNaaTSFFy4ZBp95vhA8F8MCoYHu9tmzWgcW16YyQcni9n
+
+  - https://ipfs.io/ipfs/QmZjM3DiAsnwzVPBD2zNzDN518fJqTCmmw41u2bfRZFJMf
+
+  - https://docs.orca.so/developers/whirlpools/interacting-with-the-protocol

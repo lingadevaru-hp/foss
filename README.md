@@ -22,9 +22,9 @@
 
 ## My Inspiration: Free Software Principles in a Decentralized World
 
-My journey into creating `FOSS` — a Solana token representing **Free and Open Source Software** — was deeply inspired by the foundational principles of the Free Software movement. Figures like Richard Stallman and organizations like the Free Software Foundation have championed the idea of freedom in computing, emphasizing transparency, community, and the right to study, modify, and distribute software. Their contributions to the community and their unwavering commitment to open principles have always motivated me.
+My journey into creating `FOSS` — a Solana token representing **Free and Open Source Software** — was deeply inspired by the foundational principles of the Free Software movement. Visionaries like Richard Stallman and organizations such as the Free Software Foundation have profoundly influenced my understanding of freedom in computing. Their unwavering commitment to transparency, community collaboration, and the fundamental rights to study, modify, and distribute software has always motivated me. I believe their contributions to the community and their advocacy for open principles are paramount.
 
-I questioned how these ideals could manifest in the emerging decentralized landscape of blockchain. This project became my answer: a hands-on endeavor to not just read about blockchain, but to actively build and document every step, ensuring complete transparency and verifiability. My primary goal was to gain a profound, practical understanding of how blockchain truly operates at the protocol level, and to document this experience comprehensively for myself and for others.
+This project emerged from my desire to explore how these enduring ideals could manifest within the rapidly evolving, decentralized landscape of blockchain technology. It became my hands-on endeavor to move beyond theoretical understanding, to actively build, deploy, and meticulously document every step. My primary goal was to gain a profound, practical understanding of how blockchain truly operates at the protocol level, and to create a comprehensive, auditable record of this experience for both my personal reference and for external verification.
 
 ---
 
@@ -98,7 +98,7 @@ This project was an immersive learning experience that provided me with practica
 
 ## Verify My Work: Transparency and Auditability
 
-In the spirit of Free and Open Source Software, I firmly believe in the principle of "Don't Trust, Verify." Every claim I make about this project is backed by publicly accessible data on the Solana blockchain. This section provides direct links for you to audit and verify my work independently.
+In the spirit of Free and Open Source Software, I firmly believe in the principle of "Don't Trust, Verify." Every claim I make about this project is backed by publicly accessible data on the Solana blockchain. This section provides direct links for you to audit and verify my work independently. This verifiable record also serves as a robust demonstration of my practical skills and technical understanding for potential recruiters.
 
 | What to Verify | Link |
 |---|---|
@@ -117,7 +117,7 @@ In the spirit of Free and Open Source Software, I firmly believe in the principl
 
 ## Repository Structure: My Documentation Artifacts
 
-This repository is designed as a comprehensive record of my project. It contains all the supporting documentation, raw data, and analysis that underpin my work, serving as a reference for both myself and anyone interested in auditing my process.
+This repository is designed as a comprehensive record of my project. It contains all the supporting documentation, raw data, and analysis that underpin my work, serving as a reference for both myself and anyone interested in auditing my process. This structured documentation is also intended to provide clear insights into my development process and technical rigor for potential employers.
 
 | File/Directory | Purpose and Content |
 |---|---|
@@ -136,7 +136,7 @@ This repository is designed as a comprehensive record of my project. It contains
 
 It is crucial to present an honest assessment of this project. The FOSS token, as a learning artifact, currently possesses very low liquidity and is not integrated with major Solana swap aggregators like Jupiter. Its utility, beyond embodying an idea and serving as a learning tool, is limited. Furthermore, the token's metadata relies on the continued availability and persistence of IPFS gateways.
 
-These limitations were openly acknowledged and documented throughout my research. The fundamental objective of this endeavor was never to create a financial product or a commercial venture. Instead, it was an intensive, practical exercise to demystify blockchain technology by engaging directly with its deployment, operation, and rigorous verification. This repository stands as a testament to that learning process, a personal record of my exploration into the decentralized world.
+These limitations were openly acknowledged and documented throughout my research. The fundamental objective of this endeavor was never to create a financial product or a commercial venture. Instead, it was an intensive, practical exercise to demystify blockchain technology by engaging directly with its deployment, operation, and rigorous verification. This repository stands as a testament to that learning process, a personal record of my exploration into the decentralized world, and a transparent portfolio piece for my technical capabilities.
 
 ---
 

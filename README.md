@@ -18,7 +18,7 @@
 
 <br/>
 
-<img src="https://media.tenor.com/x8v1oNUOmg4AAAAd/computer-nerds-geeky.gif" width="600" alt="coding gif" />
+<img src="https://c.tenor.com/Bpv9wTLKMskAAAAd/tenor.gif" width="600" alt="coding gif" />
 
 </div>
 

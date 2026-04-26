@@ -216,7 +216,7 @@ foss/
 
 ---
 
-## Honest Limitations
+## Known limitations
 
 - **Low liquidity** — initial pool had ~0.0004 SOL + ~2.9 FOSS. Not practically tradeable at scale.
 - **Not on Jupiter** — won't appear in most Solana wallet swap interfaces.

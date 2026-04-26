@@ -19,9 +19,8 @@
 </div>
 
 ---
-
 <div align="center">
-<img src="https://media.tenor.com/x8v1oNUOmg4AAAAd/coding.gif" width="480" alt="coding" />
+<img src="https://media.tenor.com/x8v1oNUOmg4AAAAd/computer-nerds-geeky.gif" width="480" alt="coding" />
 </div>
 
 ---

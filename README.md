@@ -18,7 +18,7 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/lingadevaru-hp/foss/refs/heads/main/data/foss%20gif%20.png" width="600" alt="coding gif" />
+<img src="https://s4.ezgif.com/tmp/ezgif-42d4a42fd5c46b0b.webp" width="600" alt="coding gif" />
 
 </div>
 

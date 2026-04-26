@@ -27,7 +27,7 @@
 
 ## Why I Built This
 
-In 1983, one programmer decided that software should be free — not free as in price, but free as in freedom. Free to run. Free to study. Free to modify. Free to share. That idea became the GNU Project, the GPL license, and eventually the foundation that the Linux kernel was built on top of.
+In 1983, one programmer [ Richest tournament ] decided that software should be free — not free as in price, but free as in freedom. Free to run. Free to study. Free to modify. Free to share. That idea became the GNU Project, the GPL license, and eventually the foundation that the Linux kernel was built on top of.
 
 The internet today runs almost entirely on the output of that movement. Linux, Git, OpenSSL, Python, GCC — tools maintained largely by volunteers or small underfunded teams. Most of the infrastructure the modern web depends on has no real funding model.
 

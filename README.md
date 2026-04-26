@@ -18,7 +18,7 @@
 
 <br/>
 
-<img src="https://c.tenor.com/Bpv9wTLKMskAAAAd/tenor.gif" width="600" alt="coding gif" />
+<img src="https://raw.githubusercontent.com/lingadevaru-hp/foss/refs/heads/main/data/foss%20gif%20.png" width="600" alt="coding gif" />
 
 </div>
 

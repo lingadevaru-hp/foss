@@ -18,10 +18,10 @@
 
 <br/>
 
-<img 
-  src="https://raw.githubusercontent.com/lingadevaru-hp/foss/refs/heads/main/raw/ezgif-69987fc746489d99.gif" 
-  alt="coding gif"
-  style="width: 100%; max-width: 1000px; height: auto; border-radius: 12px;" 
+<img
+  src="./Thumbnail.gif"
+  alt="FOSS token preview"
+  style="width: 100%; max-width: 1000px; height: auto; border-radius: 12px;"
 />
 
 </div>
